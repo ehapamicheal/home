@@ -1,0 +1,19 @@
+/* .home_container {
+    margin-bottom: 5rem;
+    padding-bottom: 4rem;
+} */
+
+.home_container {
+    background: var(--background-color);
+    margin-top: 9rem;
+    padding-top: 4rem;
+}
+
+
+/* media styles goes here */
+@media (max-width: 425px) {
+    .home_container {
+        margin-top: 7rem;
+        padding-top: 4rem;
+    }
+}

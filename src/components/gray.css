@@ -1,6 +1,7 @@
 .gray_container {
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
+    padding-bottom: 4rem;
 }
 
 .gray_container .gray_main {
@@ -25,6 +26,10 @@
 
 /* media styles goes here */
 @media (max-width: 425px) {
+    .gray_container {
+        margin-bottom: 5rem;
+    }
+
     .gray_container .gray_main {
         gap: 1rem;
     }

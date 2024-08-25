@@ -1,7 +1,10 @@
 .footer_container {
    width: 100%;
+   position: fixed;
+   bottom: 0;
    border-top: 1px solid var(--light-dark);
    z-index: 1;
+   background: var(--background-color);
 }
 
 .footer_container .footer_main {

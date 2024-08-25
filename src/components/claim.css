@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 350px;
+    height: 300px;
     border-radius: var( --border-radius-1);
 }
 
@@ -25,17 +25,11 @@
     }
 
     .claim_container .claim_main {
-        /* background: var(--light-gray);
-        display: flex;
-        align-items: center;
-        justify-content: center; */
-        height: 200px;
+        height: 150px;
         border-radius: var( --border-radius-1);
     }
     
-
-
     .claim_container .claim_main h1 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 }
